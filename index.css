@@ -1,0 +1,81 @@
+/* ===== RESET & GLOBAL RULES ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* ===== BODY STYLING ===== */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #111;
+  color: #fff;
+  overflow-x: hidden;
+
+  /* Subtle fade-in when app loads */
+  animation: fadeIn 1.2s ease-out;
+}
+
+/* ===== CODE FONT ===== */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* ===== SELECTION EFFECT ===== */
+::selection {
+  background-color: #e50914;
+  color: #fff;
+}
+
+/* ===== SMOOTH SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #555, #333);
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #888, #555);
+}
+
+/* ===== ANIMATION KEYFRAMES ===== */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== RESPONSIVE OPTIMIZATION ===== */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
