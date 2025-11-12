@@ -1,0 +1,38 @@
+.footer {
+  background-color: #000;
+  color: #757575;
+  padding: 50px 20px;
+  margin-top: 50px;
+}
+
+.footer__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__links a {
+  color: #757575;
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.3s;
+}
+
+.footer__links a:hover {
+  color: #fff;
+}
+
+.footer__copyright {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
