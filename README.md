@@ -27,5 +27,3 @@ Vite / Create React App – Development setup
 Local images – For banners and thumbnails
 
 
-## view on Netlify:
-https://6914be011846d52d168197af--dynamic-crisp-a95d23.netlify.app/
