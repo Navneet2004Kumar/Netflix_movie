@@ -1,6 +1,4 @@
-/* ------------------------------
-   ROW SECTION - Netflix WOW Edition
------------------------------- */
+
 
 .row {
   color: #fff;
@@ -42,9 +40,7 @@
   width: 100%;
 }
 
-/* ------------------------------
-   POSTERS SCROLL AREA
------------------------------- */
+
 .row__posters {
   display: flex;
   overflow-y: hidden;
@@ -59,9 +55,7 @@
   display: none;
 }
 
-/* ------------------------------
-   MOVIE CARD STYLING
------------------------------- */
+
 .movie-card {
   position: relative;
   flex: 0 0 auto;
@@ -92,9 +86,7 @@
   filter: brightness(100%);
 }
 
-/* ------------------------------
-   OVERLAY INFO
------------------------------- */
+
 .movie-overlay {
   position: absolute;
   bottom: 0;
@@ -135,9 +127,7 @@
   margin-top: 6px;
 }
 
-/* ------------------------------
-   SCROLL BUTTONS
------------------------------- */
+
 .scroll-btn {
   position: absolute;
   top: 50%;
@@ -210,4 +200,5 @@
     font-size: 0.8rem;
   }
 }
+
 
