@@ -1,12 +1,12 @@
-// src/components/Banner.js
+
 import React from 'react';
 import './Banner.css';
-import Stranger from '../images/stranger.png'; // your high-res PNG
+import Stranger from '../images/stranger.png'; 
 
 function Banner({ movie }) {
   if (!movie) return null;
 
-  // Helper function to truncate long descriptions
+
   function truncate(str, n) {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
@@ -15,11 +15,11 @@ function Banner({ movie }) {
     <header
       className="banner"
       style={{
-        backgroundImage: `url(${Stranger})`, // PNG image
+        backgroundImage: `url(${Stranger})`, 
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
-        height: '448px', // Fixed height to prevent overlap
+        height: '448px', 
         minHeight: '448px',
       }}
     >
@@ -44,5 +44,6 @@ function Banner({ movie }) {
     </header>
   );
 }
+
 
 export default Banner;
