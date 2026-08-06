@@ -27,6 +27,5 @@ Vite / Create React App – Development setup
 Local images – For banners and thumbnails
 
 ## view on netlify
-https://691557841e4b0cffc37976ca--storied-boba-3c772f.netlify.app/
-
+https://friendly-gumdrop-d38035.netlify.app/
 
